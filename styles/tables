@@ -1,0 +1,46 @@
+/* Table ****/
+table{
+    margin: 20px 0px; 
+    text-align: left; 
+    border-collapse: collapse; 
+    max-width: 100%;
+    line-height: 1.3rem; 
+    border: solid 1px #ccc;
+    table-layout:auto;
+}
+th{font-weight: bold; padding: 10px; text-align: left;}
+td{padding: 10px; vertical-align: top; border: solid 1px #ccc;}
+
+.thead{background-color: #e3c03e; line-height: 1.1rem;  ;}
+.row{border-bottom: solid 1px #ccc; padding: 10px 15px 10px 3px;}
+.row:first-child{border-top: solid 1px #ccc;}
+.row:last-child{border-bottom: solid 1px #ccc;}
+/* Table label */
+.table--title-label{padding: 0px 0px 3px 0px; margin: 0px; font-style: italic; font-size: .9rem; display: block; }
+/* Table nested <p> and list */
+table ul{margin: 0px; }
+table ul li{padding-left: 5px; margin: 0px;}
+.entry .ul{margin-left: 20px;}
+.entry .ul .li{padding: 0px;}
+.entry .ul .li>p{padding: 0px; margin: 0px;}
+.entry .p:first-child{margin-top: 0px;}
+/* Table Combinations ****/
+.table--pgwide-1{width: 100%;}
+.table--pgwide-0{width:auto;}
+.rowsep-1{border-bottom: solid 1px #ccc;}
+.rowsep-1:last-child{border-bottom:none;}
+.colsep-0, .rowsep-0{border: 0px;}
+.colsep-1{border-right: solid 1px #ccc;}
+.colsep-1:last-child{border-right:none;}
+/* end Table ****/
+
+
+/* Reference table ****/
+.reference h2{margin-left: 20px; font-size: 1.2rem;}
+.reference table {border: solid 1px #ccc; margin: 0px; padding: 0px; width: 100%;}
+.reference tbody{border: none;}
+.reference table th{background-color:#ebebeb; color: #404040; padding: 10px;  border: none; line-height: 1; text-align: left;}
+.reference table tr:nth-child(even){background-color: #f1f2f3; }
+.reference table tr:first-child{border-top: solid 1px #ccc;}
+.reference table tr td{border: none; vertical-align: top; padding: 10px;}
+/* end Reference table ****/
