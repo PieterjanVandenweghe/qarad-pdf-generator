@@ -11,7 +11,7 @@ table{
 th{font-weight: bold; padding: 10px; text-align: left;}
 td{padding: 10px; vertical-align: top; border: solid 1px #ccc;}
 
-.thead{background-color: #e3c03e; line-height: 1.1rem;  ;}
+.th*{background-color: #e3c03e; line-height: 1.1rem;  ;}
 .row{border-bottom: solid 1px #ccc; padding: 10px 15px 10px 3px;}
 .row:first-child{border-top: solid 1px #ccc;}
 .row:last-child{border-bottom: solid 1px #ccc;}
