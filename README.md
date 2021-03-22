@@ -1,1 +1,0 @@
-# qarad-pdf-generator
