@@ -1,0 +1,8 @@
+/* Set the default layout for the whole document, including the:
+ * Cover page
+ * Table of contents
+ * Document body */
+ @page {
+    size: A4;
+    margin: 25mm 25mm;
+}
