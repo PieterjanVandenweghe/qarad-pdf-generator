@@ -17,7 +17,7 @@ body,
 article,
 .body * {
   color: #000;
-  font-family: "avenir-next-lt-pro-regular", Helvetica, Arial;
+  /* font-family: "avenir-next-lt-pro-regular", Helvetica, Arial; */
   line-height: 1.5em;
   text-align: left;
   font-size: 10pt;
