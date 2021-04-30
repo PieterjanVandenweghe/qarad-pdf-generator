@@ -1,5 +1,6 @@
 .tableA td:nth-child(1) {
   background-color: #D5DCE4 !important;
+  color: #666;
   font-weight: bold;
 }
 
