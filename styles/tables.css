@@ -42,7 +42,8 @@ th,
 th * {
   /*font-weight: bold !important;  The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
   color: black !important; /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
-  background-color: #e3c03e !important;
+  /*background-color: #e3c03e !important;*/
+  background-color: #D5DCE4 !important;
   /*padding: 5px;*/
   letter-spacing: 0.5px;
   vertical-align: top;
