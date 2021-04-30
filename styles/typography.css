@@ -9,7 +9,8 @@
 
 /* Set the AvenirNextLTPro font globally. */
 @page {
-  font-family: avenir-next-lt-pro-regular;
+  /*font-family: avenir-next-lt-pro-regular;*/
+    font-family: Verdana, Arial;
 }
 
 /* Set the avenir-next-lt-pro-regular font properties for the document body and #content-wrapper. */
