@@ -1,6 +1,6 @@
 .tableA td:nth-child(1) {
   background-color: #D5DCE4 !important;
-  color: #666;
+  color: #555;
   font-weight: bold;
 }
 
@@ -41,7 +41,8 @@ tr,
 th,
 th * {
   /*font-weight: bold !important;  The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
-  color: black !important; /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
+  /*color: black !important;*/ /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
+  color: #555 !important;
   /*background-color: #e3c03e !important;*/
   background-color: #D5DCE4 !important;
   /*padding: 5px;*/
