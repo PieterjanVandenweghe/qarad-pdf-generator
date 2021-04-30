@@ -1,5 +1,6 @@
 .tableA td:nth-child(1) {
-  background-color: #8DB3E2 !important; 
+  background-color: #D5DCE4 !important;
+  font-weight: bold;
 }
 
 /* Ensure that tables and choicetables span across the whole space available. */
@@ -20,9 +21,9 @@ table * {
 
 /* Add a top-border for tables that do not contain thead elements. */
 table {
-    border: 1px solid #000 !important;
-  border-top: 1px solid #000 !important; /* The important property seems to be needed to overwrite the default SSG styling */
-  border-bottom: 1px solid #000 !important; /* The important property seems to be needed to overwrite the default SSG styling */
+    border: 1px solid #999 !important;
+  border-top: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
+  border-bottom: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
 }
 table:has(thead) {
   border-top: none;
@@ -31,7 +32,6 @@ table:has(thead) {
 /* Set padding for table entries. */
 td {
   padding: 10px;
-  /*background-color: #f00 !important;*/
 }
 
 /* Style the table and choicetable headers. 
@@ -58,12 +58,12 @@ th > .fn::footnote-call {
 tr:nth-child(odd) > td {
   background-color: #fff;
   vertical-align: top;
-  border: 1px solid #000 !important;
+  border: 1px solid #999 !important;
 }
 
 /* Style even table and choicetable rows. */
 tr > td {
 background-color: #fff;
 vertical-align: top;
-border: 1px solid #000 !important;
+border: 1px solid #999 !important;
 }
