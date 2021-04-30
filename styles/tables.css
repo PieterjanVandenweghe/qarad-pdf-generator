@@ -1,3 +1,7 @@
+#tableA td:nth-child(1) {
+  background-color: #f00 !important; 
+}
+
 /* Ensure that tables and choicetables span across the whole space available. */
 table {
   /* width: 100%; 100% shows a vertical scrollbar on sites. */
@@ -27,7 +31,7 @@ table:has(thead) {
 /* Set padding for table entries. */
 td {
   padding: 10px;
-  background-color: #f00 !important;
+  /*background-color: #f00 !important;*/
 }
 
 /* Style the table and choicetable headers. 
