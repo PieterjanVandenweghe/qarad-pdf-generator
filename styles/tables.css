@@ -1,4 +1,4 @@
-#tableA td:nth-child(1) {
+.tableA td:nth-child(1) {
   background-color: #f00 !important; 
 }
 
