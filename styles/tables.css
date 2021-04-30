@@ -21,7 +21,7 @@ table {
   border-bottom: 1px solid #000 !important; /* The important property seems to be needed to overwrite the default SSG styling */
 }
 table:has(thead) {
-  border-top: none;
+  /*border-top: none;*/
 }
 
 /* Set padding for table entries. */
@@ -61,4 +61,8 @@ tr > td {
 background-color: #fff;
 vertical-align: top;
 border: 1px solid #000 !important;
+}
+
+#tableA td:nth-child(1) {  
+  background-color: #f00;
 }
